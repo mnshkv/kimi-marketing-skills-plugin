@@ -1,0 +1,44 @@
+{
+  "$schema": "https://kimi.com/schemas/kimi.plugin.schema.json",
+  "name": "marketing-skills",
+  "version": "1.0.0",
+  "description": "53 marketing skills for your AI agent: copywriting, SEO and AI-search visibility, paid ads, email, CRO, analytics and attribution, pricing, launches, competitor research, and go-to-market strategy.",
+  "keywords": [
+    "marketing",
+    "copywriting",
+    "seo",
+    "ai-seo",
+    "aeo",
+    "cro",
+    "conversion-rate-optimization",
+    "paid-ads",
+    "google-ads",
+    "meta-ads",
+    "email-marketing",
+    "cold-email",
+    "analytics",
+    "attribution",
+    "conversion-tracking",
+    "pricing",
+    "launch",
+    "competitor-research",
+    "growth",
+    "go-to-market",
+    "product-marketing"
+  ],
+  "author": "Corey Haines (ported to Kimi Code by mnshkv)",
+  "license": "MIT; port © mnshkv",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Marketing Skills",
+    "shortDescription": "53 marketing skills: copywriting, SEO/AI-SEO, ads, email, CRO, analytics, pricing, launches, GTM strategy",
+    "longDescription": "A complete library of 53 marketing skills for AI agents, ported from Corey Haines' marketingskills (MIT). When you ask your agent anything marketing-related — write landing page copy, audit SEO, plan Google/Meta ads, build email flows, diagnose why a page isn't converting, set up conversion tracking, price a product, plan a launch, research competitors — the matching skill activates and gives the agent expert-level frameworks, checklists, and guardrails.\n\nHow to use: just ask in plain language (\"rewrite our homepage headline\", \"audit our SEO\", \"why did our CPA go up?\"). The product-marketing skill is the foundation: have the agent create `.agents/product-marketing.md` (positioning, ICP, voice) once, and every other skill reads it for context. marketing-loops and the operator references show how to run recurring marketing checks on a cadence with Kimi Code's CronCreate.\n\nCompared to the original: all 53 skills and their references/scripts/assets are carried over verbatim (minus evals and the upstream tools/ directory of external API guides — links to it now point at the upstream repo). Claude Code-specific mechanics (ScheduleWakeup, /loop, WebFetch, `!`command`` injection) were replaced with Kimi Code equivalents or neutral wording.",
+    "developerName": "Corey Haines / mnshkv",
+    "hostKind": "local"
+  },
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ]
+}
