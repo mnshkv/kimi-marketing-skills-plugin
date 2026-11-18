@@ -1,7 +1,7 @@
 {
   "$schema": "https://kimi.com/schemas/kimi.plugin.schema.json",
   "name": "marketing-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "53 marketing skills for your AI agent: copywriting, SEO and AI-search visibility, paid ads, email, CRO, analytics and attribution, pricing, launches, competitor research, and go-to-market strategy.",
   "keywords": [
     "marketing",
