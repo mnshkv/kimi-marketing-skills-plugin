@@ -59,7 +59,7 @@ Each skill is a `SKILL.md` with trigger-rich `name`/`description` frontmatter pl
 
 ## Differences from the original
 
-- **Not ported:** `evals/` and `tests/` (upstream QA harness), the `tools/` directory (67 CLI utilities, API integration guides, Composio layer, partner registry) — these are optional external-API conveniences, not skill content. Links inside skills now point to the [upstream repo](https://github.com/coreyhaines31/marketingskills) for those guides.
+- **Not ported:** `evals/` and `tests/` (upstream QA harness), the `tools/` directory (128 vendor integration guides, CLI utilities, Composio layer, partner registry) — these are optional external-API conveniences, not skill content. Links inside skills now point to the [upstream repo](https://github.com/coreyhaines31/marketingskills) for those guides.
 - **Adapted:** Claude Code-only mechanics replaced — `ScheduleWakeup`/`/loop` scheduling → Kimi Code `CronCreate`/goal mode; "Claude reads/runs this" → neutral "the agent"; WebFetch → the agent's built-in fetch. Mentions of Claude as an AI *engine* (ChatGPT/Claude/Perplexity citation work) are content, not host references, and stay.
 - **Everything else is verbatim:** all 53 skills, references, scripts, and assets, including per-skill `metadata.version`.
 
